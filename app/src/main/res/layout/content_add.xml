@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AddActivity"
+    tools:showIn="@layout/activity_add">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/sumText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/add_sum_hint"
+            android:inputType="numberDecimal" />
+
+        <Spinner
+            android:id="@+id/currencySpinner"
+            android:layout_width="217dp"
+            android:layout_height="47dp"
+            android:layout_margin="5dp"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/dateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/date_hint"
+            android:inputType="date"
+            tools:layout_margin="5dp" />
+
+        <Spinner
+            android:id="@+id/categorySpinner"
+            android:layout_width="217dp"
+
+            android:layout_height="46dp"
+            android:layout_margin="5dp"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/descriptionText"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/description_hint"
+            android:inputType="textMultiLine"
+            tools:layout_margin="5dp" />
+
+        <CheckBox
+            android:id="@+id/locationCheckBox"
+            android:layout_width="213dp"
+            android:layout_height="49dp"
+            android:gravity="center"
+            android:hint="@string/location_add_check"
+            android:text="@string/location_add_check"
+            tools:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="280dp"
+            android:layout_height="78dp"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
+            android:filterTouchesWhenObscured="false"
+            android:gravity="center"
+            android:onClick="addButtonClicked"
+            android:text="@string/add_purchase"
+            tools:layout_margin="5dp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

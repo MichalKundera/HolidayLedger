@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">HolidayLedger</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="persons">Osoby</string>
+    <string name="categories">Kategorie</string>
+    <string name="currencies">Waluty</string>
+    <string name="statistics">Statystyki</string>
+    <string name="maps">Mapa wydatków</string>
+    <string name="title_activity_persons">Osoby na wycieczce</string>
+    <string name="funds">funduszy zostało</string>
+    <string name="add">Dodaj wydatek</string>
+    <string name="title_activity_currencies">Waluty</string>
+    <string name="title_activity_maps">Mapy Wydatków</string>
+    <string name="title_activity_statistics">Statystyki</string>
+    <string name="title_activity_add">Nowy wydatek</string>
+    <string name="title_activity_categories">Kategorie</string>
+    <string name="add_sum_hint">Kwota</string>
+    <string name="date_hint">Data DD/MM/RRRR</string>
+    <string name="description_hint">Opis</string>
+    <string name="location_add_check">dodać lokalizacje?</string>
+    <string name="add_purchase">Dodaj Wpis</string>
+    <string name="title_location_permission">Pozwolenie na korzystanie z lokacji urządzenia</string>
+    <string name="text_location_permission">Aby dodać znacznik aplikacja potrzebuje dostępu do lokalizacji urządzenia</string>
+    <string name="ok">Ok</string>
+    <string name="add_success">Dodano pomyślnie!</string>
+    <string name="add_failed">Brak wypelnionych wszystkich pól</string>
+    <string name="change_profile">Zmien profil</string>
+    <string name="journeys">Wycieczki</string>
+    <string name="add_person_menu">Dodaj osobe</string>
+    <string name="change_profile_foto">Zmien zdjecie profilowe</string>
+    <string name="days">Dni</string>
+    <string name="lastPurchases">Ostatnie wydatki</string>
+    <string name="title_activity_categories_chart">Statystyki Kategorie</string>
+    <string name="categoriesStatsTitle">Kategorie - udział procentowy</string>
+    <string name="title_activity_person_chart">Statystyki osobowe</string>
+    <string name="title_activity_day_chart">Statystyki dziennne</string>
+
+</resources>
